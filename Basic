@@ -1,2 +1,8 @@
 How applications can leverage services on azure platform.
 
+As a developer we need to develop the application on local machine using any language s.a. .NET, PHP, Java, Python
+Once the application is in place, the application needs to deploy.
+
+Ur application needs to deploy onto some sort of compute infrastructure.
+
+
