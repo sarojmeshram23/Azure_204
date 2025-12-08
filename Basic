@@ -5,4 +5,8 @@ Once the application is in place, the application needs to deploy.
 
 Ur application needs to deploy onto some sort of compute infrastructure.
 
+1. How do we deploy application on Azure virtual Machine.
+2. Azure Website -> This is a manged service for hosting web applications.
+3. Container -> You can also containerize and host your applications.
+4. Function Apps -> U can define functions and host them using azure functions.
 
