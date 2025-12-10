@@ -10,3 +10,10 @@ Ur application needs to deploy onto some sort of compute infrastructure.
 3. Container -> You can also containerize and host your applications.
 4. Function Apps -> U can define functions and host them using azure functions.
 
+Section 1
+-------------
+Deploy application on azure.
+Example: Aspnet core 8, PHP
+We will deploy these applications on Azure VM.
+VS code as development tool.
+
