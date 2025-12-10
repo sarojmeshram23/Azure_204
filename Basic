@@ -3,6 +3,8 @@ How applications can leverage services on azure platform.
 As a developer we need to develop the application on local machine using any language s.a. .NET, PHP, Java, Python
 Once the application is in place, the application needs to deploy.
 
+Section 1
+------------
 Ur application needs to deploy onto some sort of compute infrastructure.
 
 1. How do we deploy application on Azure virtual Machine.
@@ -10,7 +12,7 @@ Ur application needs to deploy onto some sort of compute infrastructure.
 3. Container -> You can also containerize and host your applications.
 4. Function Apps -> U can define functions and host them using azure functions.
 
-Section 1
+Section 2
 -------------
 Deploy application on azure.
 Example: Aspnet core 8, PHP
