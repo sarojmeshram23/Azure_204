@@ -19,3 +19,26 @@ Example: Aspnet core 8, PHP
 We will deploy these applications on Azure VM.
 VS code as development tool.
 
+Virtual Machine
+---------------------------
+Deploy Virtual Machine 
+Connect to this VM via RDP
+Create ASP.Net Aplicaion in VS code
+Install IIS on Virtual machine
+ --> How ? Go to server Manager -> Add Roles & features -> Next -> Next -> (Server Roles) -> Select "Web Server" -> Add Features -> Next ->
+           Next -> Install -> close
+Go to Network Settings -> Add inbound Rule -> HTTP, 80(port_number) -> (All incoming request via port 80 should allow)
+Copy Public IP address -> Add it in new Tab -> can now see web page from IIS.
+
+Host our application(dot net application)
+------------------------------------------
+On server side also need to install Dot Net, Install .Net Runtime. For this, we need to install ASP.NET HOSTING BUNDLE.
+Go to Server Manager -> Local server -> (IE enhanced Security config: OFF)
+Open Internel Explorer(IE) -> Start without your data -> Continue and start browsing -> search (ASP.Net Hosting Bundle) -> Download and Install.
+
+Go to Server Manager -> Tools -> IIS -> Go to Default Website -> Select it -> Binding Settings 
+
+
+
+
+                          
