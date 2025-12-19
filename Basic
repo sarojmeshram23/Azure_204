@@ -51,8 +51,8 @@ Step 5: (Goal: On VS core -> publish a build )
 On VS core -> Create a new terminal -> go to the path C:\temp2\learningpath\dotnet publish -c release -0 ./bin/publish
 (By using above command runnable version of project is created.)
 
-Step 6:(Goal: Copy publish folder in learningapp folder of VM)
-Go to our desktop -> appvm -> right click Edit(Instead of Connect, chose Edit) -> Select "Local Resources" Tab -> click on More -> Select Drives -> chose C:\ drive.
+Step 6:(Goal: Copy publish folder in learningapp folder of VM) chapt.20.
+Go to our desktop -> appvm -> right click Edit(Instead of Connect, chose Edit) -> Select "Local Resources" Tab -> click on More -> Select Drives -> chose C:\ drive -> Connect.
 Got to VM -> File Explorer -> u can see desktop C:\ drive is visible in Virtual Machine -> copy publish folder content in C:\learningPath
 
 Step 7: publish public ip address of VM on browser -> u can see the web application.
