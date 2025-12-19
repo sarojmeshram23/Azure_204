@@ -26,7 +26,7 @@ Connect to this VM via RDP
 Create ASP.Net Aplicaion in VS code
 Install IIS on Virtual machine
  --> How ? Go to server Manager -> Add Roles & features -> Next -> Next -> (Server Roles) -> Select "Web Server" -> Add Features -> Next ->
-           Next -> Install -> close
+           Next -> Install -> close [Web Server in place]
 Go to Network Settings -> Add inbound Rule -> HTTP, 80(port_number) -> (All incoming request via port 80 should allow)
 Copy Public IP address -> Add it in new Tab -> can now see web page from IIS.
 
