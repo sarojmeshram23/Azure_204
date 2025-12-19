@@ -26,19 +26,36 @@ Connect to this VM via RDP
 Create ASP.Net Aplicaion in VS code
 Install IIS on Virtual machine
  --> How ? Go to server Manager -> Add Roles & features -> Next -> Next -> (Server Roles) -> Select "Web Server" -> Add Features -> Next ->
-           Next -> Install -> close [Web Server in place]
+           Next -> Install -> close [Web Server in place -> 19.chapt]
 Go to Network Settings -> Add inbound Rule -> HTTP, 80(port_number) -> (All incoming request via port 80 should allow)
 Copy Public IP address -> Add it in new Tab -> can now see web page from IIS.
 
 Host our application(dot net application)
 ------------------------------------------
+Step 1:
 On server side also need to install Dot Net, Install .Net Runtime. For this, we need to install ASP.NET HOSTING BUNDLE.
 Go to Server Manager -> Local server -> (IE enhanced Security config: OFF)
-Open Internel Explorer(IE) -> Start without your data -> Continue and start browsing -> search (ASP.Net Hosting Bundle) -> Download and Install.
+Open Internel Explorer(IE) -> Start without your data -> Continue and start browsing -> search (ASP.Net Hosting Bundle) -> (.Net Core Hosting Bundle) -> Download and Install.
 
-Go to Server Manager -> Tools -> IIS -> Go to Default Website -> Select it -> Binding Settings 
+Step 2: 
+On the C:\ drive create a folder C:\learningapp -> 
 
+Step 3: 
+Go to Server Manager -> Tools -> IIS -> Go to Sites -> click on it -> click on Default Website -> Select it -> Binding Settings (Select from RHS) -> Chose curent binding -> Edit -> diff port number than 80 i.e.8080 -> Ok.
 
+Step 4:
+I want to create a new website which listens to default port 80.
+Create a Add website and chose physical path as c:\learningapp (rt click on sites ->Add Website)
+
+Step 5: (Goal: On VS core -> publish a build )
+On VS core -> Create a new terminal -> go to the path C:\temp2\learningpath\dotnet publish -c release -0 ./bin/publish
+(By using above command runnable version of project is created.)
+
+Step 6:(Goal: Copy publish folder in learningapp folder of VM)
+Go to our desktop -> appvm -> right click Edit(Instead of Connect, chose Edit) -> Select "Local Resources" Tab -> click on More -> Select Drives -> chose C:\ drive.
+Got to VM -> File Explorer -> u can see desktop C:\ drive is visible in Virtual Machine -> copy publish folder content in C:\learningPath
+
+Step 7: publish public ip address of VM on browser -> u can see the web application.
 
 
                           
