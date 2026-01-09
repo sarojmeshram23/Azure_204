@@ -57,5 +57,24 @@ Got to VM -> File Explorer -> u can see desktop C:\ drive is visible in Virtual 
 
 Step 7: publish public ip address of VM on browser -> u can see the web application.
 
+How to connect Linux Machine : Using SSH(Secure Shell), Using PUTTY tool
+------------------------------------------------------------------------------
+Open VS code -> Create New Termial 
+Cmd: ssh username@IP_Address  -> Enter 
+
+Deploying Web Server on Linux Machine 
+---------------------------------------
+On Linux machine, We install Apache Web Server.
+Why not IIS ? Because IIS is only work with Windows machine.
+
+Step 1: Login to Linux Machine
+Step 2: Add Inbound Port Rules: HTTP 80
+Step 3: 
+       Cmd: $ sudo apt update  //This will update package Index
+            $ sudo apt install apache2
+Step 4: Go to browser -> Check IP address -> u can see apache server.
+
+
+
 
                           
