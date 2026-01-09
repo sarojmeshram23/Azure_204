@@ -47,8 +47,8 @@ Step 4:
 I want to create a new website which listens to default port 80.
 Create a Add website and chose physical path as c:\learningapp (rt click on sites ->Add Website)
 
-Step 5: (Goal: On VS core -> publish a build )
-On VS core -> Create a new terminal -> go to the path C:\temp2\learningpath\dotnet publish -c release -0 ./bin/publish
+Step 5: (Goal: On VS code -> publish a build )
+On VS code -> Create a new terminal -> go to the path C:\temp2\learningpath\dotnet publish -c release -0 ./bin/publish
 (By using above command runnable version of project is created.)
 
 Step 6:(Goal: Copy publish folder in learningapp folder of VM) chapt.20.
