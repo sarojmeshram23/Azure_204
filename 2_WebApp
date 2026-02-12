@@ -12,3 +12,16 @@ Only 2 resource is created
 1. App Service Plan
 2. App Service
 
+Name :- learningapp4000.azurewebsites.net (while deploying)
+
+Publish .Net Based application from Visual Studio
+--------------------------------------------------
+Step 1 : publish code 
+        dotnet publish -c Release -o ./bin/publish
+Step 2: Install extension "Azure App service" on visual studion.
+Step 3: right click on publish folder -> Deploy to web app -> Sign In to Azure -> Add credentials 
+Step 4: Deploy the project
+Step 5: Refresh the page.
+
+
+
