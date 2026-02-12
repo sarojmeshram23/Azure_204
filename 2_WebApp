@@ -2,3 +2,13 @@ This is managed service
 
 Here the VM & physical infrastructure is managed for you.
 
+(38)
+Create Web App 
+-----------------
+Publish: Code
+Runtime Stack: .Net
+
+Only 2 resource is created 
+1. App Service Plan
+2. App Service
+
